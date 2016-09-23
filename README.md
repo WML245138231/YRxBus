@@ -30,13 +30,7 @@ tags = {
       <version>1.2.1</version>
       <type>pom</type>
     </dependency> 
-    
-    Ivy:
-    <dependency org='com.yan.rxbus' name='rxbus' rev='1.2.1'>
-    <artifact name='$AID' ext='pom'></artifact>
-    </dependency>
-
-# how to use
+     
   
     // 普通响应发送  
     RxBus.getInstance().post(AnyType);
